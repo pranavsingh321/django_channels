@@ -130,3 +130,6 @@ CHANNEL_LAYERS = {
  "ROUTING": "channels_obstruction.routing.channel_routing",
  },
 }
+
+LOGIN_REDIRECT_URL = '/lobby/'
+LOGIN_URL = '/login/'
